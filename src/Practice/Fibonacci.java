@@ -1,4 +1,6 @@
-public class myFirstAlgo {
+package Practice;
+
+public class Fibonacci {
     //This is a program to define an algorithm to print the first 20 fibonacci numbers using loop and recursion.
     //This allows us to understand how an algorithm helps to solve a problem and it can be implemented in different ways.
     public static void main(String[] args) {

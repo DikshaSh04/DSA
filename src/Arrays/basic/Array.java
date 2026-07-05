@@ -1,5 +1,8 @@
+package Arrays.basic;
+
 import java.util.Scanner;
 import java.util.Arrays;
+
 public class Array {
     public static void main(String[] args) {
         //declaration and initialization of array
@@ -18,7 +21,7 @@ public class Array {
            System.out.print(fruits[j]+" ");
         }
 
-        //iteration using for-each loop
+        //iteration using for-each loop/enhanced for loop
         for(String a:fruits){
             System.out.print(a+" ");
         }

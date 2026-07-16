@@ -7,6 +7,7 @@ public class LowerCase {
 
 
     }
+    // logic: An uppercase and lowercase value of the same alphabet differ by 32 ASCII value.
 
     public static String lc(String s){
         //without using built-in .toLowerCase method:

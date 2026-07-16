@@ -9,13 +9,20 @@ public class DetectCapital {
         System.out.println(detectCapitalUse(s));
 
     }
+    /*
+    1. Create a counter to count how many capitals there are in the word.
+    2. Capital is found using condition: if (c>='A' && c<='Z')
+    3. Now give output as per the 3 conditions given in the ques.
+     */
+
+
     public static boolean detectCapitalUse(String word) {
-        char[] arr = word.toCharArray();
         int capital = 0;
         boolean firstCapital=false;
 
-        for(int i=0; i<arr.length; i++){
-            if(arr[i]>='A' && arr[i]<='Z'){
+        for(int i=0; i<word.length(); i++){
+            char c = word.charAt(i);
+            if(c>='A' && c<='Z'){
                 capital+=1;
                 if(i==0){
                     firstCapital = true;

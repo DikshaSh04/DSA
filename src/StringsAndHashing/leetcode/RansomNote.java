@@ -1,4 +1,4 @@
-package Strings.leetcode;
+package StringsAndHashing.leetcode;
 //Q: https://leetcode.com/problems/ransom-note/description/
 
 //This problem can be done either using HashMaps (see LC solution)

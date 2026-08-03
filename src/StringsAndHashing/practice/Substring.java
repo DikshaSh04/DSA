@@ -1,4 +1,4 @@
-package Strings.practice;
+package StringsAndHashing.practice;
 // Q: Return all substrings of given string.
 public class Substring {
     public static void main(String[] args) {

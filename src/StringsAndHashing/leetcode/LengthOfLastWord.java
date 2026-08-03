@@ -1,4 +1,4 @@
-package Strings.leetcode;
+package StringsAndHashing.leetcode;
 //Q: https://leetcode.com/problems/length-of-last-word/description/
 public class LengthOfLastWord {
     public static void main(String[] args) {

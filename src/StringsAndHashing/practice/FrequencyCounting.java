@@ -1,4 +1,4 @@
-package Strings.practice;
+package StringsAndHashing.practice;
 //Q: We have to find the frequency of each number in an integer array.
 //First we try the BRUTE FORCE approach: Time Complexity [O(n^2)]
 

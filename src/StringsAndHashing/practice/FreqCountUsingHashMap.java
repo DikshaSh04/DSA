@@ -1,4 +1,4 @@
-package Strings.practice;
+package StringsAndHashing.practice;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package Strings.leetcode;
+package StringsAndHashing.leetcode;
 //Q: https://leetcode.com/problems/merge-strings-alternately/description/
 
 public class MergeStringsAlternate {

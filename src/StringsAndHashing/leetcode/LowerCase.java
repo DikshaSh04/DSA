@@ -1,4 +1,4 @@
-package Strings.leetcode;
+package StringsAndHashing.leetcode;
 //Q: https://leetcode.com/problems/to-lower-case/
 public class LowerCase {
     public static void main(String[] args) {

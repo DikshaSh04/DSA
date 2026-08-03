@@ -1,4 +1,4 @@
-package Strings.leetcode;
+package StringsAndHashing.leetcode;
 //Q: https://leetcode.com/problems/jewels-and-stones/description/
 public class JewelsStones {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Strings.leetcode;
+package StringsAndHashing.leetcode;
 //Q: https://leetcode.com/problems/goat-latin/description/
 public class GoatLatin {
     public static void main(String[] args) {

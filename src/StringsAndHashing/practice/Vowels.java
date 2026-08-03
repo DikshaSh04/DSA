@@ -1,4 +1,4 @@
-package Strings.practice;
+package StringsAndHashing.practice;
 // Q: Count the number of vowels in a given string.
 public class Vowels {
     public static void main(String[] args) {

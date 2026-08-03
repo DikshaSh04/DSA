@@ -1,4 +1,4 @@
-package Strings.leetcode;
+package StringsAndHashing.leetcode;
 // Q: https://leetcode.com/problems/defanging-an-ip-address/
 public class DefangIP {
     public static void main(String[] args) {

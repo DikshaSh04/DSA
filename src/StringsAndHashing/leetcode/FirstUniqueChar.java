@@ -1,4 +1,4 @@
-package Strings.leetcode;
+package StringsAndHashing.leetcode;
 //Q: https://leetcode.com/problems/first-unique-character-in-a-string/description/
 
 //This can be done either using HashMaps (see LC solution) OR

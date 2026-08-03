@@ -1,7 +1,8 @@
 package Arrays.leetcode;
 
 import java.util.Arrays;
-
+//BRUTE FORCE APPROACH (did before learning two pointers)
+//Time complexity - O(n^2)
 public class MoveZeroes {
     public static void main(String[] args) {
         int[] arr={0,1,2,0,3,0,4,5};

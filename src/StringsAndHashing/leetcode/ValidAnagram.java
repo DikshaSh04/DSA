@@ -1,4 +1,4 @@
-package Strings.leetcode;
+package StringsAndHashing.leetcode;
 //Q: https://leetcode.com/problems/valid-anagram/
 
 //can be done either using HashMaps for frequency counting

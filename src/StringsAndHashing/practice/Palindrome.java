@@ -1,4 +1,4 @@
-package Strings.practice;
+package StringsAndHashing.practice;
 // Q: Check whether given string is palindrome or not.
 public class Palindrome {
 

@@ -1,4 +1,4 @@
-package Strings.leetcode;
+package StringsAndHashing.leetcode;
 
 public class ShuffleString {
     public static void main(String[] args) {

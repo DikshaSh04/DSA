@@ -1,6 +1,4 @@
-package Strings.leetcode;
-
-import java.sql.SQLOutput;
+package StringsAndHashing.leetcode;
 
 //Q: https://leetcode.com/problems/detect-capital/description/
 public class DetectCapital {

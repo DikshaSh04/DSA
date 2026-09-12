@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.practice;
 //Binary Search using recursion
 public class BinarySearch {
     public static void main(String[] args) {
@@ -17,12 +17,12 @@ public class BinarySearch {
     //is not void.
 
     public static int binarySearchRec(int[] arr, int start, int end, int target){
-
+        //base condition: (if target not found)
         if(start>end){
             return -1;
         }
         int mid = start + (end-start)/2;
-        //base condition:
+        //implicit base condition: (if target found)
         if(arr[mid]==target){
             return mid;
         }

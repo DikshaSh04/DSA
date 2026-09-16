@@ -1,4 +1,4 @@
-package Recursion.practice;
+package Recursion.practice.basic;
 //Q: Given an integer n, print all numbers from n to 1.
 public class Nto1 {
     public static void main(String[] args) {

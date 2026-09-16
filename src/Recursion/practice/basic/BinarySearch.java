@@ -1,4 +1,4 @@
-package Recursion.practice;
+package Recursion.practice.basic;
 //Binary Search using recursion
 public class BinarySearch {
     public static void main(String[] args) {

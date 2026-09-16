@@ -1,4 +1,4 @@
-package Recursion.practice;
+package Recursion.practice.basic;
 //Q: Calculate the factorial of a given number n.
 public class Factorial {
     public static void main(String[] args) {

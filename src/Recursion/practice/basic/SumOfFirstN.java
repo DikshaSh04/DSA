@@ -1,4 +1,4 @@
-package Recursion.practice;
+package Recursion.practice.basic;
 //Q: Calculate the sum of first n numbers (1 to n)
 public class SumOfFirstN {
     public static void main(String[] args) {

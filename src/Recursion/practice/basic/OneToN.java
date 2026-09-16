@@ -1,4 +1,4 @@
-package Recursion.practice;
+package Recursion.practice.basic;
 //Q: Given an integer n, print all numbers from 1 to n.
 public class OneToN {
     public static void main(String[] args) {

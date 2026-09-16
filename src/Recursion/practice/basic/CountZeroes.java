@@ -1,4 +1,4 @@
-package Recursion.practice;
+package Recursion.practice.basic;
 //Q: Count the number of times 0 appears in a number n.
 public class CountZeroes {
     public static void main(String[] args) {

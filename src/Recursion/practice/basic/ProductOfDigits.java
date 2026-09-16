@@ -1,4 +1,4 @@
-package Recursion.practice;
+package Recursion.practice.basic;
 //Q: Calculate the product of digits of a number n.
 public class ProductOfDigits {
     public static void main(String[] args) {

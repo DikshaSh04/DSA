@@ -1,4 +1,4 @@
-package Recursion.practice;
+package Recursion.practice.basic;
 //Q: Find the nth fibonacci number using recursion.
 public class Fibonacci {
     public static void main(String[] args) {

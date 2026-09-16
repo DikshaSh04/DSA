@@ -1,4 +1,4 @@
-package Recursion.practice;
+package Recursion.practice.basic;
 
 public class ReverseNumber {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Recursion.practice;
+package Recursion.practice.basic;
 //Q: Calculate the sum of digits of a number n
 public class SumOfDigits {
     public static void main(String[] args) {

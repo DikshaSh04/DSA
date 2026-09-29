@@ -8,10 +8,14 @@ public class KthLargestElement {
 
     }
 
+    //This is solved using the QUICK SELECT Algorithm used to find kth smallest/largest
+    //based on QuickSort, where a pivot is chosen and partitioning is done like in QuickSort
+    //but only one of the two recursive calls is done based on the condition and the
+    //other part of the array is discarded.
+
     public static int kthLargest(int[] arr, int k){
         int targetIndex = arr.length - k;
         return quickSelect(arr,targetIndex,0,arr.length-1);
-
 
     }
 

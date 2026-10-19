@@ -5,10 +5,11 @@ import java.util.List;
 //Q: https://leetcode.com/problems/subsets/description/
 public class SubsetI {
     public static void main(String[] args) {
-        int[] arr= {3,1,2};
-        System.out.println(subset(arr));
+        int[] arr= {1,2,3};
+        System.out.println(subsetRec(arr));
     }
 
+    //ITERATIVE METHOD :
     public static List<List<Integer>> subset(int[] arr){
         //first create the final list that will store the subsets
         List<List<Integer>> result = new ArrayList<>();
@@ -34,6 +35,30 @@ public class SubsetI {
             }
         }
         return result;
+    }
+
+    //RECURSIVE METHOD
+    public static List<List<Integer>> subsetRec(int[] arr){
+        return helper(new ArrayList<>(),arr,0);
+    }
+
+    public static List<List<Integer>> helper(List<Integer> sbset,int[] original,int i){
+        List<List<Integer>> ans = new ArrayList<>();
+        //base condition
+        if(i == original.length){
+            ans.add(new ArrayList<>(sbset));
+            return ans;
+        }
+
+        //take the element at current index
+        sbset.add(original[i]); //step 1 take the element
+        ans.addAll(helper(sbset,original,i+1)); //explore everything that INCLUDES the element
+
+        //undo (backtrack)
+        sbset.remove(sbset.size() - 1); //removes the last element(un-does step 1)
+        ans.addAll(helper(sbset,original,i+1)); //explore everything that EXCLUDES the element
+
+        return ans;
     }
 
 

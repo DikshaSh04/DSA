@@ -141,4 +141,18 @@ public class SLL {
         size--;
     }
 
+    //METHOD to search for a key in a sll
+    public boolean searchKey(int key){
+        //take temp node
+        Node temp = head;
+        //traverse the list and check if value of any node matches the key
+        while(temp!=null){
+            if(temp.value == key){
+                return true;
+            }
+            temp = temp.next;
+        }
+        return false;
+    }
+
 }

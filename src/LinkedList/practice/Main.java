@@ -14,6 +14,8 @@ public class Main {
         list.deleteLast();
         list.delete(1);
         list.displaySLL();
+        System.out.println(list.searchKey(5));
+        System.out.println(list.searchKey(10));
 
 
     }

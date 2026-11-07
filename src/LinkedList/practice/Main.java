@@ -18,5 +18,11 @@ public class Main {
         System.out.println(list.searchKey(10));
 
 
+        DLL list2 = new DLL();
+        list2.insertFirst(14);
+        list2.insertFirst(3);
+        list2.insertFirst(32);
+        list2.display();
+        list2.reverse();
     }
 }

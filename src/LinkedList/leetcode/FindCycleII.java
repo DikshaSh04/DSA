@@ -12,53 +12,36 @@ public class FindCycleII {
      }
 
      //SOLUTION
-    //1. Find the length of the cycle, if present, and store it in variable length.
-    //2. If cycle is not present i.e. length == 0, return null.
-    //3. Now take two pointers first and second, starting from head.
-    //4. Move the second pointer ahead by length of cycle times.
-    //5. Now, keep moving first and second one by one till first == second,
-    //   i.e. they land on the same node -> that node marks the beginning of cycle.
+    //1. First find out whether the linked list has a cycle or not, using fast and slow pointers
+    //2. If no cycle, return null
+    //3. If cycle is detected, i.e. if fast and slow pointers land on the same node,
+    //   a. Move one of the pointer back to head
+    //   b. Now move both slow and fast pointers by 1 (same speed) until they again become equal
+    //   c. The node where they become equal again, is always the beginning of cycle.
+    // WHY DOES THIS WORK?
+    // Mathematically,
+    // distance from head to beginning of cycle = distance from where fast and slow met to beginning of cycle
 
-    public ListNode cycleBeginAt(ListNode head){
-         int length = cycleLen(head);
+    public ListNode detectCycle(ListNode head) {
 
-         if(length == 0){
-             return null;
-         }
+        ListNode fast = head;
+        ListNode slow = head;
 
-         ListNode first = head;
-         ListNode second = head;
+        while(fast!=null && fast.next!=null){
+            fast = fast.next.next;
+            slow = slow.next;
 
-         for(int i=0; i<length; i++){
-             second = second.next;
-         }
+            if(fast == slow){
+                fast = head;
+                while(fast!=slow){
+                    fast = fast.next;
+                    slow = slow.next;
+                }
+                return fast;
+            }
+        }
+        return null;
 
-         while(first!=second){
-             first = first.next;
-             second = second.next;
-         }
-         return first;
-    }
-
-    public static int cycleLen(ListNode head){
-         ListNode fast = head;
-         ListNode slow = head;
-
-         while(fast!=null && fast.next!=null){
-             fast = fast.next.next;
-             slow = slow.next;
-
-             if(fast == slow){
-                 slow = slow.next;
-                 int count = 1;
-                 while(slow!=fast){
-                     slow = slow.next;
-                     count++;
-                 }
-                 return count;
-             }
-         }
-         return 0;
     }
 
 }
